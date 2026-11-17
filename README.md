@@ -1,6 +1,6 @@
-# Threads Keyword Search Demo
+# ThreadScout
 
-A small Next.js prototype for a Meta App Review walkthrough. It demonstrates Threads OAuth, the `threads_basic` permission, and a keyword search request using `threads_keyword_search`.
+A Next.js prototype for a Meta App Review walkthrough. It demonstrates Threads OAuth, the `threads_basic` permission, and a keyword search request using `threads_keyword_search`.
 
 ## Important before submitting to Meta
 
