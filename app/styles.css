@@ -8,6 +8,7 @@ a { color: inherit; }
 .page-shell { max-width: 1020px; margin: 0 auto; padding: 0 28px 42px; }
 .topbar { height: 76px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
 .wordmark { text-decoration: none; display: inline-flex; align-items: center; gap: 10px; font-family: 'Manrope', sans-serif; font-weight: 800; letter-spacing: -.03em; }
+.brand-icon { display: block; width: 32px; height: 32px; border-radius: 8px; object-fit: cover; }
 .threads-mark { display: grid; place-items: center; width: 31px; height: 31px; border: 2px solid #17212b; border-radius: 50%; font-size: 21px; line-height: 1; }
 .text-link, .back-link { color: #465466; font-size: 14px; text-decoration: none; }
 .text-link:hover, .back-link:hover, .result-link:hover { text-decoration: underline; }
