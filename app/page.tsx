@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { FormEvent, useEffect, useState } from "react";
 
 type SearchPost = {
@@ -66,8 +67,8 @@ export default function HomePage() {
   return (
     <main className="page-shell">
       <header className="topbar">
-        <a className="wordmark" href="/" aria-label="Threads Keyword Search Demo home">
-          <span className="threads-mark">@</span> Threads search demo
+        <a className="wordmark" href="/" aria-label="ThreadScout home">
+          <Image className="brand-icon" src="/threadscout-icon.svg" alt="" width={32} height={32} priority /> ThreadScout
         </a>
         <a className="text-link" href="/privacy">Privacy</a>
       </header>
@@ -135,7 +136,7 @@ export default function HomePage() {
         <p>Until Meta approves Advanced Access for <code>threads_keyword_search</code>, results may be limited to posts owned by the connected profile.</p>
       </aside>
 
-      <footer className="footer"><span>Threads Keyword Search Demo</span><a href="/data-deletion">Data deletion</a><a href="/privacy">Privacy policy</a></footer>
+      <footer className="footer"><span>ThreadScout</span><a href="/data-deletion">Data deletion</a><a href="/privacy">Privacy policy</a></footer>
     </main>
   );
 }
