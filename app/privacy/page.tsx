@@ -16,10 +16,10 @@ export default function PrivacyPage() {
       <p>The access token is kept in an encrypted, HTTP-only session cookie in your browser so the server can make authorized API requests. This prototype does not maintain a server-side database of profiles, tokens, search terms, or search results. Disconnecting removes the local session cookie. Meta may process requests according to its own policies.</p>
 
       <h2>Disconnect and deletion</h2>
-      <p>You can disconnect your Threads profile using the Disconnect button on the search page. To request deletion or ask a question about this prototype, contact the app operator through the contact channel provided with the App Review submission.</p>
+      <p>You can disconnect your Threads profile using the Disconnect button on the search page. To request deletion or ask a question about this prototype, email Diana Ruslanova at diana952405@gmail.com.</p>
 
       <h2>Contact</h2>
-      <p>App operator: replace this line with the responsible person or organization and a working contact email before submitting to Meta.</p>
+      <p>App operator: Diana Ruslanova. Email: diana952405@gmail.com.</p>
     </main>
   );
 }
