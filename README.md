@@ -6,7 +6,7 @@ A Next.js prototype for a Meta App Review walkthrough. It demonstrates Threads O
 
 - This is a working prototype, not a mockup. Reviewers must be able to open the deployed app and follow the test steps below.
 - Public keyword results may remain restricted until Meta grants Advanced Access for `threads_keyword_search`.
-- Replace the contact placeholder on `/privacy` with a real support contact before submitting.
+- The `/privacy` page lists the app operator and a working contact email.
 - This prototype does not persist searches or account data on a server. The long-lived access token is held in an encrypted, HTTP-only browser session cookie so server routes can make API calls.
 - Do not commit `.env.local`, App Secret, tokens, or other credentials.
 
@@ -81,5 +81,5 @@ Record an end-to-end screencast of this walkthrough. If Advanced Access has not 
 | `/api/disconnect` | Clear the browser session |
 | `/api/meta/deauthorize` | Verify Meta's signed deauthorization callback |
 | `/api/meta/data-deletion` | Verify Meta's signed deletion callback and return a status URL/code |
-| `/privacy` | Privacy policy and operator contact placeholder |
+| `/privacy` | Privacy policy and operator contact |
 | `/data-deletion` | Public deletion status page |
