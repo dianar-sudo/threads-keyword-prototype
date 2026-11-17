@@ -5,7 +5,7 @@ export default async function DataDeletionPage({ searchParams }: Props) {
   return (
     <main className="document-shell">
       <a className="back-link" href="/">← Back to search</a>
-      <div className="eyebrow">THREADS KEYWORD SEARCH DEMO</div>
+      <div className="eyebrow">THREADSCOUT</div>
       <h1>Data deletion status</h1>
       {code ? (
         <>
