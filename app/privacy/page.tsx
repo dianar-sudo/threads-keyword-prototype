@@ -2,7 +2,7 @@ export default function PrivacyPage() {
   return (
     <main className="document-shell">
       <a className="back-link" href="/">← Back to search</a>
-      <div className="eyebrow">THREADS KEYWORD SEARCH DEMO</div>
+      <div className="eyebrow">THREADSCOUT</div>
       <h1>Privacy policy</h1>
       <p className="updated">Last updated: November 17, 2026</p>
 
